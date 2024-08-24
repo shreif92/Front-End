@@ -1,0 +1,131 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box1{
+    background-color: #ffffff; 
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    display: flex;
+    margin-top: 200px;
+    position: relative;
+}
+.box2{
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(hsl(252, 100%, 67%),  hsl(241, 81%, 54%));
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box2 p{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: hsl(0, 3%, 88%);
+}
+.box2 h1{
+    text-align: center;
+    color: white;
+}
+.box2 h4{
+    text-align: center;
+    color: hsl(0, 2%, 76%);
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(hsla(241, 72%, 46%, 50), hsla(256, 72%, 46%, 1));
+    border-radius: 50%;
+    margin-top: 40%;
+    margin-left: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle p {
+    text-align: center;
+    font-size: 80px;
+    font-weight:bolder;
+}
+.circle span{
+    text-align: center;
+    color:hsl(0, 2%, 76%) ;
+    opacity: 90%;
+}
+ul {
+    list-style-type: none;
+    width: 220px;
+    padding-left: 15px;
+    padding-top: 30px;
+    
+}
+
+.reaction, .memory, .verbal, .visual , .continue {
+    padding: 10px;
+    margin: 15px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+.continue{
+    background-color: rgb(48, 59, 89);
+    border-radius: 15px;
+    justify-content: center;
+    transition: .7s;
+    margin-top: 33px;
+}
+.continue:hover{
+    background-color: blueviolet;
+    transform: scale(110%);
+}
+.continue a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+.summary{
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+.reaction{
+    background-color: rgb(255, 246, 245);
+
+}
+.memory{
+    background-color: rgb(255, 251, 242);
+}
+.verbal{
+    background-color: rgb(242, 251, 250);
+}
+.visual{
+    background-color: rgb(243, 243, 253);
+}
+.reaction p{
+    color: rgb(242, 91, 89);
+}
+.memory p{
+    color: rgb(246, 190, 6);
+}
+.verbal p{
+    color:rgb(111, 194, 176) ;
+}
+.visual p{
+    color:rgb(59, 64, 156) ;
+}
+ul li p{
+    margin-right: 15px;
+    
+}
+.verbal p,.visual p{
+    margin-right: 30px;
+}
+
